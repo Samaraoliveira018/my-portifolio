@@ -1,18 +1,23 @@
 import { SectionTitle } from "../sectionTitle/section-title"
 import "./information.scss"
+import Image from "next/image";
 
 export function Info(){
     return(
         <div className="infos">
         <SectionTitle text="Languages"/>
         <div className="languages-info">
+          
           <span>
-             <img src="./US.png" alt="us" />
-              EN - Basic</span>
+            <Image src="/US.png" alt="us" width={20} height={20} />
+            EN - Basic
+          </span>
 
           <span>
-            <img src="./br.png" alt="br" />
-            PT-BR - Native Speaker</span>
+            <Image src="/br.png" alt="br" width={20} height={20} />
+            PT-BR - Native Speaker
+          </span>
+
         </div>
         <SectionTitle text="Education"/>
         <div className="educational-info">
