@@ -13,8 +13,8 @@ export function Header(){
           <Image
             src="/me.png"
             alt="samara"
-            width={325}
-            height={310}
+            width={240}
+            height={240}
             priority
           />
         </div>
